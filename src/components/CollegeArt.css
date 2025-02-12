@@ -1,0 +1,112 @@
+/* General Styling */
+.college-art-container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  .college-art-container h1 {
+    font-size: 2rem;
+    color: #004080;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Description Text */
+  .college-art-container p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Button Styling */
+  .toggle-button {
+    background: #0073e6;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+  }
+  
+  .toggle-button:hover {
+    background: #005bb5;
+  }
+  
+  /* Department List */
+  .departments-list {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .departments-list h3 {
+    font-size: 1.5rem;
+    color: #004080;
+    margin-bottom: 15px;
+  }
+  
+  /* Department Items */
+  .departments-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .departments-list li {
+    font-size: 1.2rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .departments-list li:hover {
+    background: #e6f0ff;
+    transform: translateY(-2px);
+  }
+  
+  /* Icons */
+  .icon-style {
+    color: #0073e6;
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .college-art-container {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    .college-art-container h1 {
+      font-size: 1.8rem;
+    }
+  
+    .departments-list li {
+      font-size: 1rem;
+    }
+  
+    .icon-style {
+      font-size: 1.3rem;
+    }
+  }
+  

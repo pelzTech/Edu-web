@@ -1,0 +1,176 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  h1, h2, h3 {
+    color: #003366;
+  }
+  
+  h1 {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 1.8em;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Container */
+  .ict-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .ict-description {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .management-role {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .management-role:hover {
+    background-color: #e6f2ff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .management-role img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 15px;
+  }
+  
+  .management-role p {
+    font-size: 1em;
+    color: #444;
+  }
+  
+  .management-role ul {
+    margin-top: 10px;
+  }
+  
+  .management-role li {
+    margin-bottom: 8px;
+  }
+  
+  /* Functions List */
+  .ict-functions ul {
+    margin-top: 20px;
+  }
+  
+  .ict-functions li {
+    font-size: 1em;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Media Queries for Mobile Devices */
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 2.5em;
+    }
+  
+    .ict-description {
+      font-size: 1em;
+    }
+  
+    .management-role {
+      padding: 15px;
+    }
+  
+    .management-role img {
+      width: 120px;
+      height: 120px;
+    }
+  
+    .management-role h3 {
+      font-size: 1.6em;
+    }
+  
+    .management-role p {
+      font-size: 0.9em;
+    }
+  
+    .ict-functions li {
+      font-size: 0.9em;
+    }
+  
+    .ict-functions ul {
+      padding-left: 20px;
+    }
+  
+    .ict-container {
+      padding: 15px;
+    }
+  }
+  
+  /* Mobile Optimization (Smaller Screens) */
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    .management-role {
+      padding: 10px;
+    }
+  
+    .management-role h3 {
+      font-size: 1.4em;
+    }
+  
+    .management-role p {
+      font-size: 0.8em;
+    }
+  
+    .management-role img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .ict-functions li {
+      font-size: 0.8em;
+    }
+  }
+  

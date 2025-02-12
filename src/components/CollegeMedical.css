@@ -1,0 +1,111 @@
+/* General Container Styling */
+.college-medical-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .college-medical-container p{
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Toggle Button Styling */
+  .toggle-button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .toggle-button:hover {
+    background-color: #1a252f;
+  }
+  
+  /* Departments List Styling */
+  .departments-list {
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .departments-list h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .departments-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .departments-list li {
+    font-size: 18px;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  /* Icon Styling */
+  .icon-style {
+    font-size: 22px;
+    color: #e74c3c;
+    margin-right: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .college-medical-container {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    .toggle-button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  
+    .departments-list {
+      padding: 15px;
+    }
+  
+    .departments-list li {
+      font-size: 16px;
+    }
+  
+    .icon-style {
+      font-size: 20px;
+    }
+  }
+  

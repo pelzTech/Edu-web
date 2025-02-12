@@ -1,0 +1,234 @@
+/* Resetting some default styles for better cross-browser consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.footer-container {
+    background-color: #002b5c;
+    color: #fff;
+    padding: 50px 20px; /* Added horizontal padding to create space */
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px; /* Added max-width for limiting the content's width */
+    margin: 0 auto; /* Centering the content within the footer container */
+}
+
+.col {
+    flex: 1;
+    min-width: 250px;
+}
+
+h2 {
+    color: #ff6347;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #bdc3c7;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.icon {
+    margin-right: 8px;
+    color: #3498db;
+}
+
+/* About Section */
+.about-col p {
+    color: #bdc3c7;
+}
+
+.about-col h2{
+    color: #ff6347;
+}
+
+/* Quick Links Section */
+.links-col a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.links-col a:hover {
+    color: #3498db;
+}
+
+.links-col .icon {
+    font-size: 1.1rem;
+}
+
+.links-col h2{
+    color: #e74c3c;
+}
+
+/* FAQ Section */
+.faq-col button {
+    margin-top: 50px;
+    background-color: transparent;
+    border: none;
+    color: #3498db;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-col button:hover {
+    text-decoration: underline;
+}
+
+.faq-col ul {
+    margin-top: 10px;
+}
+
+.faq-col li a {
+    color: #bdc3c7;
+    text-decoration: none;
+}
+
+.faq-col li a:hover {
+    color: #3498db;
+}
+
+/* Feedback Form */
+.feedback-col form {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-col h2{
+    font-size: 18px;
+    color: #e74c3c;
+}
+
+.feedback-col input,
+.feedback-col textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #34495e;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.feedback-col button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.feedback-col button:hover {
+    background-color: #2980b9;
+}
+
+.feedback-status {
+    color: #2ecc71;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+/* Social Media Section */
+.social-icons {
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #e74c3c;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 0.9rem;
+    color: #bdc3c7;
+    border-top: 1px solid #34495e;
+}
+
+.footer-bottom p {
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .links-col ul {
+        padding-left: 0;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-bottom {
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        padding: 30px 15px; /* Reduced padding on very small screens */
+    }
+
+    .footer-content {
+        gap: 20px;
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+    }
+}

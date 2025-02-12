@@ -1,0 +1,115 @@
+/* unit-page.css */
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #444;
+}
+
+/* Units Page Styles */
+.units-page {
+    max-width: 1200px;       /* Maximum width of the container */
+    margin: 0 auto;          /* Center the container */
+    padding: 20px;           /* Padding around the content */
+    background-color: #fff;  /* White background for content area */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border-radius: 8px;      /* Rounded corners */
+}
+
+/* Header Styles */
+.header {
+    background-color: #44444468; /* Bootstrap Blue */
+    color: #ffffff;             /* White text */
+    padding: 20px;              /* Padding inside header */
+    text-align: center;         /* Centered text */
+    border-radius: 8px 8px 0 0;
+    box-shadow: #e1f5fe; /* Rounded corners at the top */
+}
+
+.header h1 {
+    margin: 0;                 /* Remove default margin */
+    font-size: 2.5em;          /* Headline size */
+}
+
+.header p {
+    color: #ff6347;
+    text-align: center;
+    font-size: 1.2em;          /* Subheadline size */
+    margin: 10px 0 0;         /* Margin for spacing */
+}
+
+/* Units Section Styles */
+.units {
+    margin-top: 20px;          /* Spacing above units section */
+}
+
+.units-list {
+    list-style: none;          /* Removing default list styles */
+    padding: 0;                /* Remove default padding */
+    margin: 0;                 /* Remove default margin */
+}
+
+/* Individual List Item Styles */
+.units-item {
+    margin-bottom: 20px;       /* Space between list items */
+}
+
+.units-item:last-of-type {
+    margin-bottom: 0;          /* Remove margin for last item */
+}
+
+.units-item a {
+    display: flex;             /* Flexbox layout for items */
+    align-items: center;       /* Center align items vertically */
+    text-decoration: none;      /* Remove underline */
+    color: #007BFF;            /* Bootstrap link color */
+    border: 2px solid transparent; /* Border for hover effect */
+    border-radius: 4px;        /* Rounded corners for buttons */
+    background-color: #f0f8ff; /* Light background for buttons */
+    padding: 10px;             /* Padding for clickable area */
+    transition: background 0.3s, border 0.3s; /* Smooth transitions */
+}
+
+/* Hover Effects */
+.units-item a:hover {
+    background-color: #e1f5fe; /* Change background on hover */
+         /* Change border color on hover */
+}
+
+/* Arrow Icon Styles */
+.arrow-icon {
+    margin-right: 10px;       /* Space between icon and text */
+    font-size: 1.2em;         /* Size of the arrow */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;         /* Smaller headline size on mobile */
+    }
+
+    .header p {
+        font-size: 1em;         /* Smaller subheadline size on mobile */
+    }
+
+    .units-page {
+        padding: 15px;          /* Reduced padding on mobile */
+    }
+
+    .units-item a {
+        padding: 15px;          /* Increase clickable area */
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.5em;       /* Even smaller headline size */
+    }
+
+    .units-item a {
+        font-size: 0.9em;       /* Smaller font size for mobile devices */
+    }
+}

@@ -48,7 +48,7 @@ const Home = () => {
             <p>
                 Our University is a place where knowledge meets opportunity. We provide world-class education across various fields, 
                 preparing students to become leaders, thinkers, and innovators. Join us in shaping the future with cutting-edge programs 
-                and research opportunities.
+                and research opportunities
             </p>
 
             {/* Image Slider */}

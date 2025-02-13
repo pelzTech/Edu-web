@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Edu-web/static/css/main.1efe7f1c.css",
+    "main.js": "/Edu-web/static/js/main.7b72d1e1.js",
+    "static/media/image2.jpg": "/Edu-web/static/media/image2.3acb2730f8787a6b9ff7.jpg",
+    "static/media/uni3.jpg": "/Edu-web/static/media/uni3.5283fecbe9c16a823edc.jpg",
+    "static/media/uni4.jpg": "/Edu-web/static/media/uni4.abd919340f9c0dc6a2f7.jpg",
+    "static/media/stud2.jpg": "/Edu-web/static/media/stud2.991ac3993590679eced8.jpg",
+    "static/media/stud.jpg": "/Edu-web/static/media/stud.96c903aad820a8580394.jpg",
+    "static/media/news3.jpg": "/Edu-web/static/media/news3.618c418119e3a0bd0147.jpg",
+    "static/media/prof5.jpg": "/Edu-web/static/media/prof5.5a1d4657fa4f0c0f34b1.jpg",
+    "static/media/news.jpg": "/Edu-web/static/media/news.ef155712dadf47650c51.jpg",
+    "static/media/prof3.jpg": "/Edu-web/static/media/prof3.28c9470e5cdc21cbe8c8.jpg",
+    "static/media/news2.jpg": "/Edu-web/static/media/news2.d6d3a54f9dadb4487f50.jpg",
+    "static/media/prof.jpg": "/Edu-web/static/media/prof.e6b6b5b123c7a8a6d4ea.jpg",
+    "static/media/prof4.jpg": "/Edu-web/static/media/prof4.a5e60edf653222f1dbc1.jpg",
+    "static/media/prof2.jpg": "/Edu-web/static/media/prof2.3d9a41cb60ab5f8bd98b.jpg",
+    "static/media/slick.svg": "/Edu-web/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Edu-web/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Edu-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Edu-web/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Edu-web/index.html",
+    "main.1efe7f1c.css.map": "/Edu-web/static/css/main.1efe7f1c.css.map",
+    "main.7b72d1e1.js.map": "/Edu-web/static/js/main.7b72d1e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1efe7f1c.css",
+    "static/js/main.7b72d1e1.js"
+  ]
+}

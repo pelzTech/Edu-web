@@ -92,7 +92,7 @@
     font-size: 1.2rem;
   }
   
-  /* Mobile responsiveness */
+
   @media (max-width: 768px) {
     .profile-cards {
       flex-direction: column;

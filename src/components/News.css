@@ -1,4 +1,4 @@
-/* Container styling */
+
 .news-container {
     max-width: 900px;
     margin: 40px auto;
@@ -8,7 +8,7 @@
     border-radius: 8px;
   }
   
-  /* Title and description */
+
   .news-title {
     text-align: center;
     font-size: 26px;
@@ -23,7 +23,7 @@
     margin-bottom: 30px;
   }
   
-  /* News list layout */
+
   .news-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -42,7 +42,7 @@
     transform: translateY(-5px);
   }
   
-  /* News Image */
+ 
   .news-item img {
     width: 100%;
     height: auto;
@@ -50,19 +50,18 @@
     margin-bottom: 10px;
   }
   
-  /* News Title */
+
   .news-item h2 {
     font-size: 20px;
     color: #1e293b;
     margin-bottom: 8px;
   }
   
-  /* Date */
+
   .news-item p strong {
     color: #475569;
   }
-  
-  /* Read More Link */
+
   .news-item a {
     display: inline-block;
     margin-top: 10px;
@@ -76,7 +75,7 @@
     color: #1e40af;
   }
   
-  /* Responsive Design */
+  
   @media (max-width: 768px) {
     .news-container {
       padding: 15px;

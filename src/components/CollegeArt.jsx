@@ -15,7 +15,7 @@ const CollegeArt = () => {
       <p>Welcome to the College of Art<br /> Below you'll find the list of departments</p>
 
       <button onClick={handleToggleDepartments} className="toggle-button">
-        {showDepartments ? <FaMinus /> : <FaPlus />} {/* Use FaMinus for hide, FaPlus for view */}
+        {showDepartments ? <FaMinus /> : <FaPlus />} 
       </button>
 
       {showDepartments && (

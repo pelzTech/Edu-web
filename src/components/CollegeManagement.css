@@ -1,4 +1,4 @@
-/* General Container Styling */
+
 .college-management-container {
     max-width: 800px;
     margin: 0 auto;
@@ -26,7 +26,7 @@
     color: #555;
   }
   
-  /* Toggle Button Styling */
+
   .toggle-button {
     background-color: #2c3e50;
     color: white;
@@ -43,7 +43,7 @@
     background-color: #1a252f;
   }
   
-  /* Departments List Styling */
+ 
   .departments-list {
     margin-top: 20px;
     text-align: left;
@@ -72,14 +72,12 @@
     margin: 10px 0;
   }
   
-  /* Icon Styling */
   .icon-style {
     font-size: 22px;
     color: #3498db;
     margin-right: 10px;
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     .college-management-container {
       padding: 15px;

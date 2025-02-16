@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { testimonials } from '../constants'
-// import { FaAngleLeft, FaAngleRight } from 'react-icons/fa'
+
 
 const Testimonials = () => {
   const [people] = useState(testimonials);

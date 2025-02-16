@@ -1,4 +1,4 @@
-/* General Container Styling */
+
 .college-education-container {
     max-width: 800px;
     margin: 0 auto;
@@ -68,7 +68,7 @@
     margin-right: 10px;
   }
   
-  /* Responsive Design */
+ 
   @media (max-width: 768px) {
     .college-education-container {
       padding: 15px;

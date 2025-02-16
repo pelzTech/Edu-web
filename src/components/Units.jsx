@@ -43,7 +43,7 @@ const Units = () => {
         </ul>
       </section>
 
-      {/* Outlet for rendering sub-routes */}
+     
       <Outlet />
     </div>
   );

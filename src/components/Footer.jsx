@@ -9,25 +9,24 @@ import './Footer.css';
 const Footer = () => {
     const { register, formState: { errors }, handleSubmit } = useForm({ mode: "all" });
     const [feedbackStatus, setFeedbackStatus] = useState(null);
-    const [showFaq, setShowFaq] = useState(false); // Added this line for FAQ toggle
+    const [showFaq, setShowFaq] = useState(false);
 
     const onSubmit = (data) => {
-        // Simulate form submission
+        
         console.log("User feedback:", data);
         setFeedbackStatus('Thank you for your feedback! We value your input.');
-        setTimeout(() => setFeedbackStatus(null), 5000); // Reset after 5 seconds
+        setTimeout(() => setFeedbackStatus(null), 5000); 
     };
 
     return (
         <footer className="footer-container">
             <div className="footer-content">
-                {/* About Section */}
+            
                 <div className="col about-col">
                     <h2>About Us</h2>
                     <p>We are committed to providing world-class education, fostering innovation, and preparing students for global excellence</p>
                 </div>
 
-                {/* Quick Links */}
                 <div className="col links-col">
                     <h2>Quick Links</h2>
                     <ul>
@@ -39,7 +38,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* FAQ Section */}
+              
                 <div className="col faq-col">
                     <button className="faq-toggle" onClick={() => setShowFaq(!showFaq)}>
                         {showFaq ? "Hide" : "Show"} FAQ
@@ -54,7 +53,7 @@ const Footer = () => {
                     )}
                 </div>
 
-                {/* User Feedback Form */}
+           
                 <div className="col feedback-col">
                     <h2>We Value Your Feedback</h2>
                     <p>Let us know your thoughts or suggestions!</p>
@@ -87,7 +86,7 @@ const Footer = () => {
                     {feedbackStatus && <p className="feedback-status">{feedbackStatus}</p>}
                 </div>
 
-                {/* Social Media Section */}
+               
                 <div className="col social-col">
                     <div className="social-icons">
                         <NavLink to='https://www.facebook.com/'><FaFacebook /></NavLink>

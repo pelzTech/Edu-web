@@ -1,4 +1,4 @@
-/* General navbar styles */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -15,10 +15,10 @@
   }
   
   .highlight {
-    color: #ff6347; /* Highlight color */
+    color: #ff6347; 
   }
   
-  /* Navbar links (default, for desktop screens) */
+  
   .nav-links {
     display: flex;
     gap: 20px;
@@ -42,58 +42,56 @@
   }
   
   .link:hover {
-    color: #ff6347; /* Change color on hover */
+    color: #ff6347; 
   }
   
-  /* Mobile menu toggle styles */
+ 
   .menu-icons {
-    display: none; /* Initially hidden for desktop */
+    display: none; 
     cursor: pointer;
   }
   
   .close-icon {
-    display: none; /* Hidden by default, for mobile */
+    display: none;
     font-size: 30px;
     color: #fff;
     cursor: pointer;
   }
 
 
-/* Adjust body or content when mobile menu is open */
   body.menu-open {
-  overflow: hidden; /* Prevent scrolling when the menu is open */
+  overflow: hidden; 
  }
 
- /* Adjust body or content when mobile menu is open */
 
 body.menu-open main {
-  transform: translateY(200px); /* Adjust this to how much you want the content to be pushed down */
+  transform: translateY(200px);
   transition: transform 0.3s ease-in-out;
 }
   
-  /* Mobile specific styles */
+ 
   @media (max-width: 768px) {
-    /* Hide the regular navigation links */
+   
     .nav-links {
       display: none;
       flex-direction: column;
       position: absolute;
-      top: 70px; /* Adjust the position below the navbar */
+      top: 70px; 
       right: 0;
       background-color: #333;
       width: 100%;
       padding: 10px;
       gap: 10px;
-      transform: translateY(0); /* Ensure menu is visible on desktop */
+      transform: translateY(0); 
     }
   
-    /* Show the menu icon */
+ 
     .menu-icons {
       display: block;
       font-size: 30px;
     }
   
-    /* When the mobile menu is open */
+  
     .nav-links.active {
       flex-direction: column;
       gap: 0;
@@ -106,12 +104,12 @@ body.menu-open main {
       display: flex;
     }
   
-    /* Show the close icon */
+  
     .close-icon {
       display: block;
     }
   
-    /* Style each link in the mobile menu */
+   
     .link {
       font-size: 20px;
       color: #fff;

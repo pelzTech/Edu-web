@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import './Navbar.css'; // Import the CSS file for styling
+import './Navbar.css'; 
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
-  // Handle adding/removing the "menu-open" class on the body element
+
   useEffect(() => {
     if (toggle) {
       document.body.classList.add("menu-open");
@@ -21,7 +21,7 @@ const Navbar = () => {
       Eminence <span className="highlight">University</span>
       </div>
 
-      {/* Centered navigation links */}
+    
       <div className={`nav-links ${toggle ? "active" : ""}`}>
         <NavLink to="/" exact className="link" onClick={() => setToggle(false)}>
           Home
@@ -46,9 +46,9 @@ const Navbar = () => {
         </NavLink>
       </div>
 
-      {/* Mobile menu icon */}
+     
       <div className="menu-icons" onClick={() => setToggle((prev) => !prev)}>
-        {toggle ? <FaTimes /> : <FaBars />} {/* Toggle between open and close icons */}
+        {toggle ? <FaTimes /> : <FaBars />} 
       </div>
     </nav>
   );

@@ -1,19 +1,17 @@
-/* Colleges.css */
 
-/* General Styles */
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif; /* A clean and modern font */
-  background-color: #f4f4f4; /* Light gray background */
+  font-family: 'Arial', sans-serif; 
+  background-color: #f4f4f4; 
 }
 
 .colleges-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background: white; /* White background for the section */
-  border-radius: 8px; /* Rounded corners */
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background: white; 
+  border-radius: 8px; 
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .colleges-header{
@@ -29,12 +27,12 @@ body {
 
 h1 {
   text-align: center;
-  color: #333; /* Darker shade for the main heading */
+  color: #333; 
 }
 
 p {
   text-align: center;
-  color: #555; /* Light gray for introduction text */
+  color: #555; 
   margin-bottom: 30px;
 }
 
@@ -75,7 +73,7 @@ p {
   font-size: 24px;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .colleges-container {
       padding: 10px;

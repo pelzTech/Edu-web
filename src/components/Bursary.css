@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -44,7 +44,7 @@
     margin-bottom: 15px;
   }
   
-  /* Container */
+
   .bursary-container {
     width: 100%;
     max-width: 1200px;
@@ -95,7 +95,7 @@
     margin-bottom: 8px;
   }
   
-  /* Functions List */
+ 
   .bursary-functions ul {
     margin-top: 20px;
   }
@@ -106,7 +106,7 @@
     color: #555;
   }
   
-  /* Media Queries for Mobile Devices */
+
   @media screen and (max-width: 768px) {
     h1 {
       font-size: 2.5em;
@@ -146,7 +146,7 @@
     }
   }
   
-  /* Mobile Optimization (Smaller Screens) */
+ 
   @media screen and (max-width: 480px) {
     h1 {
       font-size: 2em;

@@ -1,9 +1,9 @@
 import React from 'react';
 
-// rrd import
+
 import { useLoaderData, Link } from 'react-router-dom';
 
-// component import
+
 import Footer from '../components/Footer';
 
 const UndergraduatePrograms = () => {
@@ -27,7 +27,7 @@ const UndergraduatePrograms = () => {
 
 export default UndergraduatePrograms
 
-// loader function
+
 export const programsLoader = async () => {
     const res = await fetch('http://localhost:4000/undergraduatePrograms');
     if (!res.ok) {

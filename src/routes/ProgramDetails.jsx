@@ -8,17 +8,6 @@ const ProgramDetails = () => {
     const { id } = useParams();
     const program = useLoaderData();
 
-    // const handleDownload = () => {
-    //     fetch('').then(res => {
-    //         res.blob().then(blob => {
-    //             const fileURL = window.URL.createObjectURL(blob);
-    //             let alink = document.createElement('a');
-    //             alink.href = fileURL;
-    //             alink.download = 'sample.pdf';
-    //             alink.click();
-    //         })
-    //     })
-    // }
 
   return (
     <>

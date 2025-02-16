@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Home.css';
 
-// Importing images from the assets folder inside the src directory
+
 import proChancellorImg from '../assets/prof.jpg';
 import viceChancellorImg from '../assets/prof2.jpg';
 import registrarImg from '../assets/prof3.jpg';
@@ -31,8 +31,8 @@ const Home = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,          // Enables autoplay
-        autoplaySpeed: 10000,    // Sets the autoplay speed to 10 seconds (10000ms)
+        autoplay: true,          
+        autoplaySpeed: 10000,    
     };
 
     const toggleBio = (role) => {
@@ -81,7 +81,7 @@ const Home = () => {
             </p>
 
             <div className="profile-cards">
-                {/* Pro-Chancellor */}
+               
                 <div className="profile-card">
                     <img src={proChancellorImg} alt="Pro-Chancellor" className="profile-img" />
                     <h4>Prof. Michael Adams</h4>
@@ -115,7 +115,7 @@ const Home = () => {
                     )}
                 </div>
 
-                {/* Registrar */}
+               
                 <div className="profile-card">
                     <img src={registrarImg} alt="Registrar" className="profile-img" />
                     <h4>Dr. Ojo Smith</h4>
@@ -132,7 +132,7 @@ const Home = () => {
                     )}
                 </div>
 
-                {/* Bursar */}
+               
                 <div className="profile-card">
                     <img src={bursarImg} alt="Bursar" className="profile-img" />
                     <h4>Mr. David Green</h4>
@@ -149,7 +149,6 @@ const Home = () => {
                     )}
                 </div>
 
-                {/* Librarian */}
                 <div className="profile-card">
                     <img src={librarianImg} alt="Librarian" className="profile-img" />
                     <h4>Dr. Susan Clark</h4>

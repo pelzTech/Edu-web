@@ -13,7 +13,7 @@ const ContactForm = () => {
   return (
     <form id='contact-form' onSubmit={handleSubmit(data => console.log(data))}>
         <p className='msg'>Send us a message</p>
-        {/* <div className="error"></div> */}
+        
         <div className="input-box">
           <input 
             placeholder='Name'

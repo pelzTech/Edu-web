@@ -1,7 +1,6 @@
 import React from "react";
 import './Registrar.css';
 
-// Import images
 import profImage from '../assets/prof.jpg';
 import deputyRegistrarImage from '../assets/prof.jpg';
 import registrarAdminImage from '../assets/prof2.jpg';

@@ -1,4 +1,4 @@
-/* General Styling */
+
 .college-art-container {
     max-width: 1000px;
     width: 90%;
@@ -10,7 +10,7 @@
     text-align: center;
   }
   
-  /* Heading Styling */
+
   .college-art-container h1 {
     font-size: 2rem;
     color: #004080;
@@ -18,7 +18,7 @@
     margin-bottom: 15px;
   }
   
-  /* Description Text */
+ 
   .college-art-container p {
     text-align: center;
     font-size: 1.1rem;
@@ -26,7 +26,7 @@
     line-height: 1.6;
   }
   
-  /* Button Styling */
+
   .toggle-button {
     background: #0073e6;
     color: white;
@@ -43,7 +43,7 @@
     background: #005bb5;
   }
   
-  /* Department List */
+
   .departments-list {
     margin-top: 20px;
     padding: 20px;
@@ -58,7 +58,7 @@
     margin-bottom: 15px;
   }
   
-  /* Department Items */
+
   .departments-list ul {
     list-style: none;
     padding: 0;
@@ -83,14 +83,14 @@
     transform: translateY(-2px);
   }
   
-  /* Icons */
+  
   .icon-style {
     color: #0073e6;
     margin-right: 10px;
     font-size: 1.5rem;
   }
   
-  /* Responsive Design */
+
   @media (max-width: 768px) {
     .college-art-container {
       width: 95%;

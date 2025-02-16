@@ -27,7 +27,7 @@ const Admission = () => {
         </li>
       </ul>
 
-      {/* Outlet to load nested routes */}
+     
       <div className="admission-outlet">
         <Outlet />
       </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-// components import
+
 import FacilityList from '../components/FacilityList';
 import Footer from '../components/Footer';
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Outlet } from "react-router-dom";
-import { FaArrowRight } from "react-icons/fa"; // Importing the arrow icon from react-icons
-import './Colleges.css'; // Import the CSS for styling
+import { FaArrowRight } from "react-icons/fa"; 
+import './Colleges.css'; 
 
 const Colleges = () => {
     return (
@@ -46,7 +46,7 @@ const Colleges = () => {
                 </ul>
             </section>
 
-            {/* Outlet for rendering sub-routes */}
+           
             <Outlet />
         </div>
     );

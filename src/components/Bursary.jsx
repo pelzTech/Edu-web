@@ -1,7 +1,7 @@
 import React from "react";
 import './Bursary.css';
 
-// Importing images
+
 import bursarImage from '../assets/prof4.jpg';
 import assistantBursarImage from '../assets/prof.jpg';
 import payrollOfficerImage from '../assets/prof2.jpg';

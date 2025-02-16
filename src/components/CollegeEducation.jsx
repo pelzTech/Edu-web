@@ -25,7 +25,7 @@ const CollegeEducation = () => {
       <p>Explore various educational disciplines to become a professional educator.</p>
 
       <button onClick={handleToggleDepartments} className="toggle-button">
-        {showDepartments ? <FaMinus /> : <FaPlus />} {/* Toggle between plus and minus icons */}
+        {showDepartments ? <FaMinus /> : <FaPlus />} 
       </button>
 
       {showDepartments && (
